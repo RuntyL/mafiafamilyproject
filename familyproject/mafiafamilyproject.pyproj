@@ -23,7 +23,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="family_member.py" />
+    <Compile Include="mafia_family.py" />
+    <Compile Include="mafia_roles.py" />
     <Compile Include="main.py" />
+    <Compile Include="operations.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
